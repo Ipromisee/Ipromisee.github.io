@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "你好，这是我的学习博客"
 date: 2026-07-20 22:30:00 +0800
 categories:
@@ -7,6 +6,9 @@ categories:
 tags:
   - 写作
   - 知识管理
+description: "我为什么开始系统记录自己的学习过程，以及以后准备如何写学习笔记。"
+toc: true
+comments: false
 ---
 
 这是这个博客的第一篇文章，也是我开始系统记录学习过程的起点。
