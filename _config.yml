@@ -1,0 +1,13 @@
+title: "Ipromisee 的个人主页"
+description: "记录个人成长中的学习和思考"
+author: "Ipromisee"
+
+lang: zh-CN
+timezone: Asia/Shanghai
+
+theme: minima
+
+url: "https://Ipromisee.github.io"
+baseurl: ""
+
+markdown: kramdown
