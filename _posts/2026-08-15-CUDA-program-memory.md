@@ -811,9 +811,11 @@ Kernel 最终性能
 后续无论是学习 **Reduction、GEMM、Softmax 还是 FlashAttention**，本质上都还是围绕同样的问题展开：
 
 > 数据应该由哪些线程计算？
+>
 > 一个 Warp 应该访问哪些地址？
+>
 > 哪些数据值得放进 Shared Memory？
+>
 > 哪些中间结果应该保留在 Register？
+>
 > 为了增加数据复用，又付出了多少 Register 和 Shared Memory 资源？
-
-当你开始习惯用这几个问题分析 Kernel 时，CUDA 优化就不再是一堆零散技巧，而会逐渐变成一套完整、统一的性能分析方法。
