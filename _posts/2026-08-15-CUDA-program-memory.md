@@ -214,7 +214,7 @@ Thread 2 ─→ tile[2]
 
 随后其他线程可能会读取这些数据。
 
-这就产生了一个问题：Thread 0 什么时候才能确定 Thread 200 已经把自己的数据写进 Shared Memory？
+这就产生了一个问题：Thread 0 什么时候才能确定 Thread 255 已经把自己的数据写进 Shared Memory？
 
 答案就是：
 
